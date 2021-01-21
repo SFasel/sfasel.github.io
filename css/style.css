@@ -1,4 +1,5 @@
 :root {
+  --darker: #111015;
   --dark-1: #1d1c21;
   --dark-2: #29282f;
   --dark-3: #2a292e;
@@ -20,6 +21,11 @@ html, body {
   overflow-x: hidden !important;
   width: 100%;
   height: 100%;
+}
+
+.hr_sep {
+  width: 50px;
+  border: 2px solid var(--text-light);
 }
 
 .text-highlight {
@@ -56,4 +62,8 @@ html, body {
 
 .bg-dark-3 {
   background: var(--dark-3);
+}
+
+.bg-darker {
+  background: var(--darker);
 }
