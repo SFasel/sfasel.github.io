@@ -4,12 +4,13 @@
   --dark-2: #29282f;
   --dark-3: #2a292e;
   --text-light: #fefdfe;
-  --text-medium: #d1d1d3;
+  --text-medium: #616161;
   --hightlight: #c17c7c;
 }
 
 body {
   background: var(--dark-1);
+  color: var(--text-medium);
 }
 
 #wrapper {
