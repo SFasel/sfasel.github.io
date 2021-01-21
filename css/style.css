@@ -9,6 +9,7 @@
 
 body {
   background: var(--dark-1);
+  overflow-x: hidden !important;
 }
 
 .text-highlight {
